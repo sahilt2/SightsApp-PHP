@@ -46,7 +46,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
         <input type="url" name="image" required>
         <label for="description">Description</label>
         <textarea name="description" id="description" cols="30" rows="10"></textarea>
-      <button type="submit" name="submit">Submit</button>
+      <button class="add" type="submit" name="submit">Submit</button>
     </form>
     </div>
 </body>

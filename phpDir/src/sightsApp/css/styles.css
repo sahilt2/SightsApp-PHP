@@ -9,8 +9,9 @@ body {
   font-family: "Raleway", sans-serif;
 }
 .cards {
-  display: inline-block;
+  display: flex;
   margin: 4rem 2rem 0;
+  justify-content: center;
 }
 .card {
   width: 400px;
@@ -39,6 +40,13 @@ h3,
 img,
 p {
   padding: 0.5rem;
+}
+.add {
+  background-color: green;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  color: white;
 }
 button {
   border: none;
@@ -72,9 +80,12 @@ form {
   padding: 1rem;
   margin: 1rem;
 }
-input {
+input,
+textarea {
   padding: 0.4rem;
+  font-family: inherit;
 }
+
 label {
   padding: 1rem 0;
 }
